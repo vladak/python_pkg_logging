@@ -11,5 +11,5 @@ def make_foo():
     logger = logging.getLogger(__name__)
     logger.debug("foo debug")
 
-    r = get('http://grok.cz.oracle.com')
+    r = get('https://duckduckgo.com/')
     print(r)
